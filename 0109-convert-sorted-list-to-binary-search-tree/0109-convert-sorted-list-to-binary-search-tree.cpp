@@ -39,7 +39,6 @@ public:
         }
        // middle find karo
         ListNode* temp = head;
-
         for (int i = 0; i < n / 2; i++) {
             temp = temp->next;
         }
